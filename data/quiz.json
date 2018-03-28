@@ -1,0 +1,27 @@
+{
+    "questions" : [{"category": "Strategy","question":"Which of the following best describes your company's digital transformation strategy?"},
+                  {"category": "Marketing", "question":"How is your organization doing on digital initiatives to improve marketing and brand differentiation?"},
+                  {"category": "Speed & Agility", "question":"Have you implemented methods to improve the speed with which you can launch digital solutions?"},                     
+                  {"category": "Customer Experience", "question":"Are you improving your methods for understanding and evolving your customer experiences?"},
+                  {"category": "Business Performance", "question":"Is your organization applying better data capture, usage, engineering, and data science to improve overall business performance?"},
+                  {"category":"Operations", "question":"How about operational improvements—are you leveraging digital there?"}             
+                ],
+
+    "answers":[ {"ans":"Don't know / Not applicable", "score":0},
+                {"ans":"We have no plans", "score":0},
+                {"ans":"We have clearly defined plans", "score":1},
+                {"ans":"In the process of implementing", "score":2},
+                {"ans":"We have already implemented", "score":3}],
+                
+    "result":[{"title": "Digital Adolescent", 
+                "desc": "You work for a company that has barely begun the digital transformation process. You’re in the right place to get to work!"},
+              {"title": "Time to Get Moving", 
+                "desc": "You work for a company that is off to a good start with its digital transformation, but there is still much work to be done."},
+              {"title": "Getting There", 
+                "desc": "Not bad! You work for an organization that is aware of the importance of digital transformation and has taken solid steps towards implementation."},
+              {"title": "Up and Coming", 
+                "desc": "Good news! You work for an organization that well on its way to completing its digital transformation."},
+              {"title": "The Picture of Maturity", 
+                "desc": "Well done! You work for an organization that is already a digital transformation leader."}
+              ]
+}

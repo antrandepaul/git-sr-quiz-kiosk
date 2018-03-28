@@ -1,0 +1,107 @@
+.quote4 .quote4-svg {
+	height: 585px;
+    width: 430px;
+    position: absolute;
+    left: 179px;
+    top: 309px;
+    z-index: 2;
+}
+
+.quote4 .text-highlight {
+	height: 40px;
+	width: 280px;
+    background: linear-gradient(270deg, #00FAFF 0%, #0030FF 100%);
+    position: absolute;
+    left: 228px;
+    top: 782px;
+    
+}
+
+.quote4 .box {
+	height: 60px;
+	//width: 233px;
+	border: 3px solid #0030FF;
+    left: 179px;
+    top: 975px;
+    position: absolute;
+    text-align: center;
+}
+
+.quote4 .line {
+	height: 914px;
+	width: 4px;
+	//border: 4px solid #000000;
+    background: linear-gradient(180deg, #00FAFF 0%, #0030FF 100%);
+    left: 138px;
+    top: 327px;
+    position: absolute;
+}
+
+.quote4 .line2 {
+	height: 4px;
+	width: 346px;
+    background:
+      linear-gradient(to left, #00FAFF, #0030FF); 
+    left: 138px;
+    top: 1241px;
+    position: absolute;
+}
+.quote4 .smartphone-color-png {
+	height: 758px;
+    width: 1074px;
+    left: -131px;
+    top: 1235px;
+    background-image: url("../images/smartphone-color.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 2;
+}
+
+
+.quote4 .smartphone-color {
+	height: 758px;
+    width: 1074px;
+    left: -141px;
+    top: 1235px;
+    position: absolute;
+}
+
+.quote4 .smartphone-png {
+	height: 1125px;
+    width: 1179px;
+    left: -141px;
+    top: 868px;
+    background-image: url("../images/smartphone.png");
+    background-repeat: no-repeat;    
+    position: absolute;
+}
+    
+.quote4 .smartphone-bg-png {
+	height: 1125px;
+    width: 1179px;
+    left: -151px;
+    top: 848px;
+    background-image: url("../images/smartphone-bg.png");
+    background-repeat: no-repeat;    
+    position: absolute;
+    padding: 20px;
+}
+
+.quote4 .rectangle-782 {
+	height: 1152px;
+	width: 1252px;
+    background: linear-gradient(180deg, #00FAFF 0%, #0030FF 100%);
+    left: -209px;
+    top: 831px;
+    position: absolute;
+}
+
+.quote4 .data-bg-png {
+	height: 775px;
+    width: 1209px;
+    left: -68px;
+    top: 1095px;
+    background-image: url("../images/data-bg-gray.png");
+    background-repeat: no-repeat;        
+    position: absolute;
+}

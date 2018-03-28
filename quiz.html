@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="css/styles.css" rel="stylesheet">
+        <script type="text/javascript" language="javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" language="javascript" src="js/main.js"></script>
+
+        <script type="text/javascript">
+             $(document).ready(function(e) {
+
+               mainJS.init();
+           
+          
+            $(".answer-bg").each(function(){
+                $(this).click(function(e){
+                    $(".answer-bg").removeClass("active");
+                    $(".answer-bg").children("div").removeClass("active"); 
+                   
+                    
+                    $(this).children("div").addClass("active");
+                    $(this).addClass("active").css({"transition": "background-color 2s linear"});
+                    
+                    var answer = $(this)[0].id;
+                    var timing = 5000;
+                    var nextUrl = "/quote1.html";
+                    
+                    if ($("meter").val() >1) { timing = 2000; nextUrl = "/answer.html";};
+
+                    window.setTimeout(function() {
+                        mainJS.next(answer);
+                            window.location.assign(nextUrl);
+                    }, timing);
+                    
+                });
+            });
+            
+        });
+        </script>
+    </head>
+    <body class="quiz">
+
+            <div class="quiz-progress">
+                    <meter value="1" min="0" max="6"></meter>
+                    <div class="progressbar">
+                        <span class="progress"></span>
+                        <span id="userID" class="user-id"></span></div>
+            </div>
+            
+            <div class="container">
+
+
+            
+                <div class="category">
+                </div>
+
+                <div class="question">
+                </div>
+
+                <div class="answers">
+                    <ul>
+                    <li id="answer1" class="answer-bg" data-score="0">
+                        <div class="ans-h1 ans1-h1">Don’t Know / Not Applicable</div>
+                    </li>
+                    <li id="answer2" class="answer-bg" data-score="0">
+                        <div class="ans-h1 ans2-h1">Not Yet Executing</div><br>
+                        <div class="ans-content ans2-content">Digital transformation is not a current initiative</div>
+                    </li>
+                    <li id="answer3" class="answer-bg" data-score="1">
+                        <div class="ans3-h1 ans-h1">Retrofitting</div><br>
+                        <div class="ans3-content ans-content">We’re transforming existing business processes to become more efficient and effective at interacting with customers</div>
+                    </li>
+                    <li id="answer4" class="answer-bg" data-score="2">
+                        <div class="ans4-h1 ans-h1">Rebuilding</div><br>
+                        <div class="ans4-content ans-content">We’re developing entirely new digital business offerings and building an entirely new digital business model</div>
+                    </li>
+                    <li id="answer5" class="answer-bg" data-score="3">
+                        <div class="ans5-h1 ans-h1">Both</div><br>
+                        <div class="ans5-content ans-content">Retrofitting and rebuilding</div>
+                    </li>
+                </div>
+        </div>
+    </body>
+</html>

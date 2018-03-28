@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="css/styles.css" rel="stylesheet">
+        <script type="text/javascript" language="javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" language="javascript" src="js/main.js"></script>
+
+        <script type="text/javascript">
+             $(document).ready(function(e) {
+                
+               mainJS.showUserId();
+               mainJS.updateExecResponse();
+               mainJS.showQA();
+               
+               window.setTimeout(function() {
+                        window.location.assign("/quote" + $("meter").val() + ".html");
+                    }, 6000);
+                
+               });
+             
+              
+        </script>
+    </head>
+    <body class="answer">
+            <div class="quiz-progress">
+                    <meter value="1" min="0" max="6"></meter>
+                    <div class="progressbar">
+                        <span class="progress"></span>
+                        <span id="userID" class="user-id"></span></div>
+            </div>
+            <div class="container">
+            <div class="category">
+            </div>
+
+            <div class="question">
+            </div>
+
+            <div class="answers">
+                <ul>
+                <li id="answer1" class="chart-bg answer-bg">
+                    <span class="ans-bg"></span>
+                    <span class="ans-percent">8%</span>
+                    <span class="ans-h1">DON'T KNOW</span>
+                </li>
+                <li id="answer2" class="chart-bg answer-bg">
+                    <span class="ans-bg"></span>
+                    <span class="ans-percent">1%</span>
+                    <span class="ans-h1">NO PLANS</span>
+                </li>
+                <li id="answer3" class="chart-bg answer-bg">
+                    <span class="ans-bg"></span>
+                    <span class="ans-percent">18%</span>
+                    <span class="ans-h1">DEFINED PLANS</span>
+                </li>
+                <li id="answer4" class="chart-bg answer-bg">
+                    <span class="ans-bg"></span>
+                    <span class="ans-percent">42%</span>
+                    <span class="ans-h1">IN PROCESS</span>
+                </li>
+                <li id="answer5" class="chart-bg answer-bg">
+                    <span class="ans-bg"></span>
+                    <span class="ans-percent">31%</span>
+                    <span class="ans-h1">IMPLEMENTED</span>
+                </li>
+            </ul>
+            </div>
+            <div class="responses-from-our-survey"><p>Responses From our Survey of 500 Senior Executives</p></div>
+        </div>
+    </body>
+</html>

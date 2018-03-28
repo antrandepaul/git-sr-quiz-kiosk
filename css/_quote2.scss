@@ -1,0 +1,59 @@
+.quote2 .container {
+    top: 290px;
+    z-index: 1100;
+}
+
+.quote2 .quote2-svg {
+	height: 323px;
+    width: 706px;
+    z-index: 1000;
+    margin-bottom: 80px;
+}
+
+.quote2 .text-highlight {
+    position: absolute;
+	height: 40px;
+    width: 225px;
+    left: 278px;
+    top: 423px;
+	background: linear-gradient(270deg, #00FAFF 0%, #0030FF 100%);
+}
+
+.quote2 .ogilvy {
+	height: 797px;
+    width: 907px;
+    left: 274px;
+    top: 701px;
+    position: absolute;
+}
+
+.quote2 .ogilvy-png {
+	height: 769px;
+    width: 879px;
+    left: 302px;
+    top:729px;
+    background-image: url("../images/ogilvy.png");
+    z-index: 1000;
+    position: absolute;
+}
+
+.quote2 .ogilvy-bg-png {
+	height: 769px;
+    width: 879px;
+    left: 274px;
+    top: 701px;
+    background-image: url("../images/ogilvy-bg.png");
+    position: absolute;
+    z-index: 1001;
+    padding: 28px 0px 0px 28px;
+    background-repeat: no-repeat;
+    
+}
+.quote2 .data-bg-png {
+    position: absolute;
+    left: -92px;
+    top: 917px;
+	height: 775px;
+    width: 1209px;
+    background-image: url("../images/data-bg-gray.png");
+}

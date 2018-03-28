@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <link href="css/styles.css" rel="stylesheet">
+        <script type="text/javascript" language="javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" language="javascript" src="js/main.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(e) {
+
+              mainJS.showUserId();
+              
+              $(".progress").html("RESULTS");
+              
+              var i = 1;
+              while(i < 5){
+                $(".loading").fadeIn(3000);
+                $(".loading").fadeOut(3000);
+                i++;
+              }
+              
+              window.setTimeout(function() {
+                        mainJS.submit();                        
+                    }, 5000);
+            
+            });
+        </script>
+    </head>
+    <body class="result">
+        <div class="quiz-progress">
+            <meter value="0" min="0" max="6"></meter>
+            <div class="progressbar">
+                <span class="progress"></span>
+                <span id="userID" class="user-id"></span></div>
+        </div>
+    
+    <div class="container">
+
+            <div class="loading-executive-results-calc">
+                <p>Loading Executive Results</p>
+                <p>Calculating your Score</p>
+                <div class="loading">
+                    <div class="ellipse1 circle"></div>
+                    <div class="ellipse2 circle"></div>
+                    <div class="ellipse3 circle"></div>
+                </div>
+            </div>  
+            <div class="result-description">
+                <div class="result-title"></div>
+                <div class="result-desc"></div>
+                <div class="box">
+                        <a id="next_btn" class="next-question" href="/thankyou.html">Continue&nbsp;
+                            <span class="arrow-svg">
+                                <img src="images/SVGs/cta-arrow-blue.svg" />
+                            </span>
+                        </a>
+                </div>
+            </div>
+
+            <div class="scatterplot">
+                <div class="chart-labels">
+                    <div class="digital-adolescent label-box">Digital<br> Adolescent</div>
+                    <div class="time-to-get-moving label-box">Time to <br>Get Moving</div>
+                    <div class="getting-there label-box">Getting <br>There</div>
+                    <div class="up-and-coming label-box">Up And <br> Coming</div>
+                    <div class="picture-of-maturity label-box">Picture of<br> Maturity</div>
+                </div>
+                <div class="scatterplot-png">
+
+                </div>
+            </div>
+
+            <div class="result-marker">
+                <div class="score-marker">
+                </div>
+                <div class="line"></div>
+                <div class="here-s-where-you-fall-amongst">Here’s Where<br>You Fall Amongst<br>500 Executives</div>
+            </div>
+         </div>
+         <div class="butterflies">
+            <div class="results-butterfly-1-png inactive"></div>
+            <div class="results-butterfly-2-png inactive"></div>
+            <div class="results-butterfly-3-png inactive"></div>
+            <div class="results-butterfly-4-png inactive"></div>
+            <div class="results-butterfly-5-png inactive"></div>
+    </div>   
+    </body>
+</html>

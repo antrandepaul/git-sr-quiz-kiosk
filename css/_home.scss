@@ -1,0 +1,95 @@
+.home .container{
+    position: absolute;
+    top:542px;
+    .how-digitally-mature-are-you-a {
+        height: 323px;
+        width: 685px;
+        color: #FFFFFF;
+        font-family: "Miller Display";
+        font-size: 95px;
+        line-height: 100px;
+        margin-bottom: 95px;
+      }
+    
+      .take-our-quick-quiz-to-see-how {
+        height: 220px;
+        width: 338px;
+        color: #FFFFFF;
+        font-family: Gotham;
+        font-size: 27px;
+        font-weight: 300;
+        line-height: 40px;
+        margin-bottom: 76px;
+      }
+
+    
+}
+.home .sr-logo-svg {
+    position: absolute;
+    top:1716px;
+    height: 67px;
+    left: 140px;
+    width: 293px;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 300;
+}
+  
+.data-copy {
+	height: 885px;
+	width: 1058px;
+    background-image: url("../images/data-bg.png");
+  }
+ .shape-1 {
+    position:absolute;
+    left:268px;
+    top:-57px;
+	height: 644px;
+	width: 900px;
+	background-image: url("../images/butterfly1.png");
+  }
+
+  .shape-8 {
+    position:absolute;
+    left:565px;
+    top:829px;
+	height: 349px;
+	width: 689px;
+	background-image: url("../images/butterfly2.png");
+}
+
+.shape-17 {
+    position:absolute;
+    left:678px;
+    top:1229px;
+    height: 363px;
+	width: 651px;
+	background-image: url("../images/butterfly3.png");
+}
+
+.shape-12 {
+    position:absolute;
+    left:906px;
+    top:1586px;
+	height: 248px;
+	width: 307px;
+	background-image: url("../images/butterfly4.png");
+}
+
+
+
+.home {
+    background: linear-gradient(#00FAFF, #0030FF);
+    background-repeat: no-repeat;
+    height: 1920px;
+    .box {
+        border: 4px solid #FFFFFF;
+        width:280px;
+        .next-question{
+            color:#FFFFFF;
+        }
+    }
+}
+

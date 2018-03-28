@@ -1,0 +1,125 @@
+.quote1 .container {
+    top: 275px;
+    margin-left: 179px;
+}
+
+.quote1 .progress-color {
+	height: 20px;
+	width: 1080px;
+	background: linear-gradient(270deg, #00FAFF 0%, #0030FF 100%);
+}
+
+.quote1 .progress-bg {
+	height: 20px;
+	width: 1080px;
+	background-color: #F2F2F2;
+}
+
+.quote1 .quote-svg {
+	height: 452px;
+    width: 502px;
+    z-index: 998;
+    margin-bottom: 70px;
+}
+
+.quote1 .text-highlight {
+	height: 40px;
+    width: 270px;
+    left: 233px;
+    top: 675px;
+}
+
+.quote1 .cta-button {
+	height: 60px;
+    width: 233px;
+    left: 179px;
+    top: 797px;
+    position: absolute;
+}
+
+
+.quote1 .line {
+    position: absolute;
+	height: 734px;
+    width: 500px;
+    left: 140px;
+    top: 288px;
+	border-left: 4px solid;
+    border-image:
+      linear-gradient(to top, #0030FF, #00FAFF) 1 100%;
+}
+
+.quote1 .line2 {
+    position: absolute;
+	height: 730px;
+    width: 510px;
+    left: 140px;
+    top: 288px;
+    z-index: 1001;
+	border-bottom: 4px solid #0030FF;
+}
+
+.quote1 .dollars {
+    position: absolute;
+	height: 15158px;
+	width: 6272px;
+}
+
+.quote1 .dollar-color-png {
+    position: absolute;
+	height: 15158px;
+    width: 6272px;
+    left: -4700px;
+    top:-916px;
+    background-image: url("../images/dollar-color.png");
+    background-repeat: no-repeat;
+}
+
+.quote1 .rectangle-838 {
+    position: absolute;
+	height: 864px;
+    width: 887px;
+    left: 465px;
+    top: 1017px;    
+    z-index: 1000;
+}
+
+.quote1 .us-100-copy {
+	height: 15158px;
+    width: 6272px;
+    left: -4700px;
+    top: -916px;
+    position: absolute;
+}
+
+.quote1 .dollar-png {
+	height: 14208px;
+    width: 6200px;
+    position: absolute;
+    left: -4700px;
+    top: 34px;
+    background-image: url("../images/dollar.png");
+    background-repeat: no-repeat;
+}
+
+.quote1 .data-bg-png {
+	height: 775px;
+    width: 1209px;
+    left: -40px;
+    position: absolute;
+    top: 1069px;
+    background-image: url("../images/data-bg-gray.png");
+    background-repeat:repeat-y;
+}
+
+.quote1 .dollar-bg-png {
+	height: 1439px;
+    width: 964px;
+    left: 445px;
+    top: 244px;
+    position: absolute;
+    background-image: url("../images/dollar-bg.png");
+    background-repeat: no-repeat;
+    padding: 50px 0px 0px 15px;
+    z-index: 900;
+}

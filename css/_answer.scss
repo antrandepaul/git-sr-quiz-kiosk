@@ -1,0 +1,125 @@
+
+
+.answer .answers .answer-bg {
+	height: 190px;
+    background-color: #F2F2F2;
+    display:flex;
+    align-items: center;
+    padding:0px;
+    color: #bebbbb;
+    .ans-bg {
+        border-radius: 10px;
+    }
+   
+    .ans-percent {
+        font-family: "Miller Display";
+        font-size: 48px;
+        text-align: left;
+        padding: 0px 0px 0px 10px;
+        float:left;
+    }
+    .ans-h1 {	
+        width: 100%;        
+        font-family: Gotham;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: right;
+        padding-right: 15px;
+        letter-spacing: 1px;
+     }    
+}
+.answer .question {
+    margin-bottom: 120px;
+} 
+
+@mixin ans-bg($width) {
+	height: 100%;
+	width: $width;
+	background-color: rgb(230, 225, 225);
+}
+.answer .answers #answer1 .ans-bg {
+   @include ans-bg(96px);
+}
+
+.answer .answers #answer2 .ans-bg {
+    @include ans-bg(12px);
+ }
+
+.answer .answers #answer3 .ans-bg {
+    @include ans-bg(216px);
+ }
+
+.answer .answers #answer4 .ans-bg {
+    @include ans-bg(502px);
+ }
+
+.answer .answers #answer5 .ans-bg {
+    @include ans-bg(372px);
+ }
+
+.answer .answers .chart-bg.active {
+    .ans-percent {
+        color: #19191E;
+    }
+    .ans-bg {
+        box-shadow: -7px 7px 40px rgba(0,1,1,0.4);
+    }
+}
+.answer .answers #answer1.active {
+    .ans-bg {
+        background-color:#A8A8A8;
+    }     
+    .ans-h1{
+        color: #A8A8A8;
+    }
+}
+
+
+.answer .answers #answer2.active {
+    .ans-bg {
+        background-color:#00D9FF;
+    }    
+    .ans-h1{
+        color: #00D9FF;
+    }
+}
+
+.answer .answers #answer3.active {
+    .ans-bg {
+        background-color:#00A2FF;
+    }    
+    .ans-h1{
+        color: #00A2FF;
+    }
+}
+
+.answer .answers #answer4.active {
+    .ans-bg {
+        background-color:#006CFF;
+    }
+    .ans-h1{
+        color: #006CFF;
+    }
+}
+
+.answer .answers #answer5.active {
+    .ans-bg {
+        background-color:#0000FF;
+    }
+    .ans-h1{
+        color: #0000FF;
+    }
+}
+
+.answer .responses-from-our-survey {
+	height: 11px;
+	width: 552px;
+	color: #4F4F56;
+	font-family: Gotham;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,71 @@
+.quote5 .quote5-svg {
+	height: 668px;
+    width: 393px;
+    left: 138px;
+    top: 402px;
+    position: absolute;
+    z-index: 2;
+}
+
+.quote5 .text-highlight {
+	height: 40px;
+	width: 210px;
+   left: 227px;
+    top: 803px;
+    position: absolute;
+}
+
+
+.quote5 .box {
+    left: 138px;
+    top: 1138px;
+    position: absolute;
+    z-index:2;
+}
+
+.quote5 .line {
+	height: 5px;
+	width: 358px;
+    background: linear-gradient(270deg, #00FAFF 0%, #0030FF 100%);
+    left: 530px;
+    top: 453px;
+    position: absolute;
+}
+
+
+.quote5 .globe-color-png {
+	height: 937px;
+    width: 624px;
+    left: 641px;
+    top: 453px;
+    position: absolute;
+    z-index: 1;
+    background-image: url("../images/globe-color.png");
+}
+
+.quote5 .globe-png {
+	height: 1057px;
+    width: 807px;
+    left: 641px;
+    top: 344px;
+    position: absolute;
+    z-index: 1;
+}
+
+.quote5 .data-bg-png {
+	height: 775px;
+    width: 1209px;
+    left: 69px;
+    top: 1122px;
+    position: absolute;
+    background-image: url("../images/data-bg-gray.png");
+}
+
+.quote5 .globe-bg-png {
+	height: 1057px;
+    width: 807px;
+    left: 621px;
+    top: 334px;
+    position: absolute;
+    background-image: url("../images/globe-bg.png");
+}

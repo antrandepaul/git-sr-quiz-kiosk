@@ -1,0 +1,39 @@
+.thankyou .thanks-text-svg {
+	height: 50px;
+    width: 550px;
+    left: 265px;
+    top: 223px;
+    position: absolute;
+	color: #FFFFFF;
+	font-family: "Miller Display";
+	font-size: 50px;
+	font-style: italic;
+	line-height: 70px;
+	text-align: center;
+}
+
+.thankyou .for-more-information-about-imp {
+	height: 220px;
+    width: 595px;
+    position: absolute;
+    left: 243px;
+    top: 319px;
+	color: #FFFFFF;
+	font-family: Gotham;
+	font-size: 26.02px;
+	font-weight: 300;
+	line-height: 41px;
+	text-align: center;
+}
+ 
+.thankyou .box {
+	
+    width: 200px;
+    left: 440px;
+	top:615px;
+	position: absolute;
+	border-color: #00D4FF;
+	.next-question {
+		color: #00D4FF;
+	}
+}
